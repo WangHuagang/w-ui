@@ -1,11 +1,14 @@
 {
   "name": "w-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {"name": "王华港"},
+  "main":"/lib/w-ui.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -18,6 +21,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
