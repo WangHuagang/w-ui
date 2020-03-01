@@ -1,24 +1,26 @@
 # w-ui
 
-## Project setup
+## Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install whg-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+### Quick Start
+```js
+import WhgUI from 'whg-ui'
+import 'whg-ui/lib/w-ui.css'
+Vue.use(WhgUI)
+
+
+<template>
+    <w-button type='primary'>wui按钮</w-button>
+</template>
 ```
 
-### Lints and fixes files
+### Keywords
 ```
-npm run lint
+whg-ui ui vue components
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Mail
+ [1154438272@qq.com](1154438272@qq.com)
